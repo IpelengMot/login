@@ -43,5 +43,25 @@ public class register {
           return false;
       }
     }
+          public String registerUser(String firstname,String lastname,String username,String password){
+       System.out.println("Please enter firstname");
+       firstname = scanner.nextLine();
+       
+        System.out.println("Please enter lastname");
+        lastname = scanner.nextLine();
+        
+        System.out.println("Please create username");
+        username = scanner.nextLine();
+         
+        System.out.println("Please create password");
+        password = scanner.nextLine();
+        
+        System.out.println("Please enter your Username");
+        providedusername = scanner.nextLine();
+        
+        System.out.println("Please enter password");
+        providedpassword = scanner.nextLine();   
+        return null;
+    }
 }
     
