@@ -71,6 +71,13 @@ public class register {
         providedpassword = scanner.nextLine();
         return false;
     }
-           
+        public String ReturnloginStatus(String username,String password){
+         System.out.println("Please enter username");
+         providedusername = scanner.nextLine();
+         
+        System.out.println("Please enter password");
+        providedpassword = scanner.nextLine();
+        return null;
+    }      
 }
     
