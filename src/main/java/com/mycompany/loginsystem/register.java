@@ -31,5 +31,17 @@ public class register {
       
    }
 }
+         public boolean CheckpasswordCompexity(String password){
+      // varifying  password
+      if(providedpassword.contains("?=[A-Z]") && providedpassword.contains("?=[!@#$%^&*()_+]") && providedpassword.length() <=8 && providedpassword.contains("?=[1-9]")){
+          System.out.println("Password successfully secured");
+          return true;
+          
+      }
+      else{
+          System.out.println("Unable to secure password please try again");
+          return false;
+      }
+    }
 }
     
