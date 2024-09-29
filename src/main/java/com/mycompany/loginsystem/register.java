@@ -60,22 +60,23 @@ public class register {
         providedusername = scanner.nextLine();
         
         System.out.println("Please enter password");
-        providedpassword = scanner.nextLine();
-        
+        providedpassword = scanner.nextLine();   
+        return null;
     }
     public boolean loginuser(String username,String password){
          System.out.println("Please enter username");
-         username = scanner.nextLine();
+         providedusername = scanner.nextLine();
          
         System.out.println("Please enter password");
-        password = scanner.nextLine();
+        providedpassword = scanner.nextLine();
+        return false;
     }
     public String ReturnloginStatus(String username,String password){
          System.out.println("Please enter username");
-         username = scanner.nextLine();
+         providedusername = scanner.nextLine();
          
         System.out.println("Please enter password");
-        password = scanner.nextLine();
- 
+        providedpassword = scanner.nextLine();
+        return null;
     }  
 }
