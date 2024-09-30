@@ -9,6 +9,7 @@ import java.util.Scanner;
  * @author RC_Student_lab
  */
 public class register {
+        
  //declaration
     String username="Ava_1";
     String password="Pheello5_";
@@ -78,6 +79,7 @@ public class register {
         System.out.println("Please enter password");
         providedpassword = scanner.nextLine();
         return null;
-    }      
+    }  
+           
 }
     
